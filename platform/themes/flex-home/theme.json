@@ -1,0 +1,13 @@
+{
+    "name": "Saigon Star Internatioal school",
+    "description": "This is a basic theme",
+    "author": "Huynh Tan Duong",
+    "version": "1.0",
+    "required_plugins": [
+        "blog",
+        "contact",
+        "language",
+        "gallery",
+        "real-estate"
+    ]
+}

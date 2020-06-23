@@ -1,0 +1,23 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import 'normalize';
+@import 'custom_bootstrap';
+@import 'header';
+@import 'sidebar';
+@import 'user';
+@import 'setting';
+@import 'dashboard';
+@import 'avatar';
+@import 'card';
+@import 'login';
+@import 'packages';
+
+@import '~tachyons/css/tachyons';
+
+//Jquery nice select
+@import '~jquery-nice-select/scss/nice-select';
+@import '~toastr/toastr';

@@ -1,0 +1,4 @@
+[13-Apr-2020 09:51:12 UTC] PHP Fatal error:  Interface 'JsonSerializable' not found in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Support/Enumerable.php on line 11
+[13-Apr-2020 09:51:53 UTC] PHP Fatal error:  Interface 'JsonSerializable' not found in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Support/Enumerable.php on line 11
+[13-Apr-2020 09:53:32 UTC] PHP Fatal error:  Interface 'JsonSerializable' not found in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Support/Enumerable.php on line 11
+[13-Apr-2020 09:55:00 UTC] PHP Fatal error:  Interface 'JsonSerializable' not found in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Support/Enumerable.php on line 11

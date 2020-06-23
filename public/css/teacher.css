@@ -1,0 +1,737 @@
+ul
+{
+    font-family: Arial, Verdana;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li
+{
+    display: block;
+    position: relative;
+    /* float: left; */
+}
+
+li ul
+{
+    display: none;
+}
+
+ul li a 
+{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+    /* padding: 5px 15px 5px 15px;    */
+    margin-left: 1px;
+    white-space: nowrap;
+}
+
+ul li a:hover 
+{
+    background: #ddd;
+}
+li:hover ul 
+{
+    display: block;
+    position: absolute;
+   
+}
+
+li:hover li
+{
+    float: none;
+    font-size: 15px;
+}
+
+li:hover a 
+{
+    background: #ddd;
+}
+
+li:hover li a:hover 
+{
+    background: #95A9B1;
+}
+.navbar{
+  margin-bottom:0px;
+}
+#header-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.bg_home_box_1_in {
+  width: 1200px;
+  margin: auto;
+  font-weight: bold;
+}
+/* .w_1280 {
+    width: 1290px;
+    margin: 0 auto;
+} */
+.responsive {
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+/* Column container */
+.row {  
+
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  width: 400px;
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+#main-contain{
+  width: 1290px;
+  margin: 0 auto;
+  padding:20px;
+}
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  width: 850px;
+  background-color: white;
+  padding: 20px;
+  flex: 70%;
+}
+.headerschool{
+  width: 850px;
+  text-align:center;
+}
+.headerschool .introduction{
+  width: 440px;
+  float:left;
+  text-align:center;
+}
+.headerschool .images{
+  width: 400px;
+  float:right;
+  text-align:center;
+  
+}
+.box_maps iframe {
+    width: 100%;
+    height: 247px;
+}
+/* Fake image, just for this example */
+.fakeimg {
+  width: 100%;
+}
+.admissions-home{
+   width: 850px;
+  text-align:center;
+}
+.admissions-home .column1{
+  width: 420px;
+  float:left;
+  text-align:center;
+}
+.admissions-home .column2{
+  width: 420px;
+  float:right;
+  text-align:center;
+}
+.admissions-home .column1 .card img{
+  width: 258px;
+  height:258px;
+  margin-left: 30px;
+}
+.admissions-home .column2 .card img{
+  width: 258px;
+  height:258px;
+  margin-left: 30px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+  }
+}
+@media only screen and (max-width:767px){
+	.w_1280 {
+   	   width: 768px;
+    	margin: 0 auto;
+  }
+  #main-contain{
+   width: 768px;
+    margin: 0 auto;
+  }
+  #main-contain .main .headerschool{
+     width: 768px;
+    margin: 0 auto;
+  }
+   #main-contain .side{
+     width: 310px;
+    margin: 0 auto;
+  }
+  #main-contain .main {   
+    -ms-flex: 70%; /* IE10 */
+      width: 330px;
+      background-color: white;
+      padding: 20px;
+    }
+     #main-contain .main .headerschool{
+       width: 330px;
+      margin: 0 auto;
+    }
+    #main-contain .main .headerschool .introduction{
+      width: 320px;
+      text-align:center;
+    }
+    #main-contain .main .headerschool .images{
+      width: 320px;
+      text-align:center;
+    }
+    #main-contain .main .admissions-home .column1{
+      width: 320px;
+      text-align:center;
+    }
+    #main-contain .main .admissions-home .column2{
+      width: 320px;
+      text-align:center;
+    }
+    .admissions-home .column1 .card img{
+      width: 258px;
+    }
+    .admissions-home .column2 .card img{
+      width: 258px;
+    }
+  
+}
+@media only screen and (max-width:480px){
+  #myHeader + .main-content {
+       padding-top: 70px;
+  } 
+  .carousel-item{
+    z-index: 1px;
+  }
+  .carousel-item .h3-responsive{
+    font-size: 20px;
+    font-weight: bold;
+    color: #08436b;
+  }
+  .carousel-item a{
+    color: red;
+    font-weight: bold;
+  }
+	.w_1280 {
+   	  width: 370px;
+      margin: 0 auto;
+      
+  }
+  .content-his{
+    background: #ffffff;
+    width: 330px;
+    margin: 0 auto;
+  }
+  #main-contain{
+    width: 330px;
+    margin: 0 auto;
+  }
+  #main-contain .side{
+     width: 330px;
+    margin: 0 auto;
+  }
+
+  #main-contain .main {   
+  -ms-flex: 70%; /* IE10 */
+    width: 330px;
+    background-color: white;
+    padding: 20px;
+  }
+   #main-contain .main .headerschool{
+     width: 310px;
+    margin: 0 auto;
+  }
+  #main-contain .main .headerschool .introduction{
+  	width: 300px;
+  	text-align:left;
+	}
+  #main-contain .main .headerschool .images{
+    width: 320px;
+    text-align:center;
+  }
+  #main-contain .main .admissions-home .column1{
+    width: 320px;
+    text-align:center;
+  }
+  #main-contain .main .admissions-home .column2{
+    width: 320px;
+    text-align:center;
+  }
+  .admissions-home .column1 .card img{
+    width: 258px;
+  }
+  .admissions-home .column2 .card img{
+    width: 258px;
+  }
+}
+/* Center website */
+.main-teacher {
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  /* font-size: 50px; */
+  word-break: break-all;
+}
+
+/* .row-people {
+  margin: 10px -16px;
+} */
+
+/* Add padding BETWEEN each column */
+.row-people,
+.row-people > .column-teacher {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column-teacher {
+  float: left;
+  width: 23.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row-people:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content-teacher {
+  background-color:#f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  font-size: 20px;
+  outline: none;
+  width: 200px;
+  padding: 12px 16px;
+  background-color: #08436b;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #008080;
+  color: white;
+}
+@media only screen and (max-width: 480px)
+{
+  .headerschool .images img {
+    width: 310px;
+    /* float: right; */
+    text-align: center;
+  }
+  .ismain-homes{
+    width: 330px;
+  
+  }
+  .main-teacher{
+    width: 310px;
+  
+  }
+  .row-people, .row-people > .column-teacher{
+    padding: 2px;
+    width: 310px;
+
+  }
+  .btn {
+      width:310px;
+  } 
+  .modal-dialog {
+    max-width: 300px;
+    margin: 1.75rem auto;
+  }
+  .modal-images img{
+    width: 280px;
+    height: 280px;
+    padding: 0 10px;
+  }
+  .title-modal{
+    text-align: center;
+    font-weight: bold;
+    color: #008080;
+    font-size: 15px;
+  }
+  /* .tz-gallery {
+    padding: 40px;
+ } */
+}
+@media (min-width: 576px){
+  .modal-dialog {
+      max-width: 500px;
+      margin: 1.75rem auto;
+  }
+  .modal-images img{
+    width: 470px;
+    height: 400px;
+    padding: 0 10px;
+  }
+  .title-modal{
+    text-align: center;
+    font-weight: bold;
+    color: #008080;
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #myHeader {
+    position: fixed;
+    z-index: 2;
+    top:0;
+    width: 768px!important;
+    /* padding: 10px 0; */
+  }
+  #ismain-homes .banner{
+    width: 768px;
+
+  }
+  #ismain-homes .bg_home_box_1_in{
+    width: 650px;
+  }
+  #main-contain{
+    width: 650px;
+    margin: auto;
+    padding: 5px;
+  }
+  .main{
+    width: 650px;
+    height: auto;
+  }
+  #main-contain .side{
+    width: 650px;
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  #main-contain .side .Inter{
+    width: 650px;
+    height: 240px;    
+  }
+  
+  #main-contain .side .fakeimg{
+    width: 330px;
+    padding: 20px;
+    float: left;
+  }
+  #main-contain .side p{
+    width: 300px;
+    float: left;
+  }
+  .carousel-inner {
+    position: relative;
+    /* width: 650px!important; */
+    overflow: hidden;
+  }
+    .w_1280 {
+      width: 768px;
+      margin: 0 auto;
+    }
+    .bg_home_box_1_in {
+      width: 100%;
+    }
+    .responsive {
+      width: 100%;
+      height: auto;
+    }
+    .w90{
+      /* display:none; */
+      display: block!important;
+      height: auto!important;
+      padding-bottom: 0;
+      overflow: visible!important;
+    }
+    .main .headerschool{
+      width: 650px;
+    }
+
+    .main .headerschool .introduction{
+      width: 240px;
+      padding-right: 10px;
+      float: left;
+      text-align:center;
+    }
+    .main .headerschool .images{
+        width: 400px;
+        float: left;
+        text-align: center;
+    
+    }
+    .main .banner-avert{
+      width: 650px;
+      height: auto;
+
+    }
+    .main .main-teacher{
+      width: 650px;
+    }
+    .main .slideshow-container{
+      width: 650px;
+      height: auto;
+
+    }
+    .main .dot-container {
+      width: 650px;
+      text-align: center;
+      /* padding: 20px; */
+      background: #ddd;
+     }
+     .main .box_maps{
+       width: 650px;
+     }
+
+     .bravo_topbar {
+      background: #08436b;
+      padding: 15px 0px!important;
+      }
+     .btn {
+      border: none;
+      font-size: 20px;
+      outline: none;
+      width: 155px;
+      padding: 8px 8px;
+      background-color: #08436b;
+      cursor: pointer;
+      color: #ffffff;
+    }
+    .navbar-toggle {
+      display: block;
+      float: right;
+    }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    
+    .navbar-header {
+            float: none;
+        }
+      .navbar-toggle {
+          display: block;
+      }
+      .navbar-collapse {
+          border-top: 1px solid transparent;
+          box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+      }
+      .navbar-collapse.collapse {
+          display: none!important;
+      }
+      .navbar-nav {
+          float: none!important;
+          margin: 7.5px -15px;
+      }
+      .navbar-nav>li {
+          float: none;
+      }
+      .navbar-nav>li>a {
+          padding-top: 10px;
+          padding-bottom: 10px;
+      }
+      .navbar-collapse.collapse.in { 
+          display: block!important;
+      }
+      .collapsing {
+          overflow: hidden!important;
+      }
+      .footer_main{
+        width: 768px;
+      }
+      #bt_open {
+        cursor: pointer;
+        z-index: 1;
+        transform: rotate(270deg);
+        transform-origin: left top 0;
+        position: fixed;
+        /* right: -97px; */
+        bottom: 35%;
+        background: #bc5d13;
+        display: block;
+        color: #fff;
+        font-size: 18px;
+        text-transform: uppercase;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        width: 142px;
+        height: 44px;
+        line-height: 33px;
+        text-align: center;
+    }
+}
+/* ----------- iPad Pro ----------- */
+@media only screen and (min-width: 1024px) and (max-height: 1366px)
+    and (-webkit-min-device-pixel-ratio: 1.5) and (hover: none) {
+    /* ... */
+    body{
+      margin: 0 auto;
+    }
+    #myHeader {
+      position: fixed;
+      z-index: 2;
+      top: 0;
+      width: 1024px!important;
+      /* padding: 10px 0; */
+  }
+
+  #ismain-homes .bg_home_box_1_in{
+    width: 768px;
+  }
+  #main-contain{
+    width: 768px;
+    margin: auto;
+    padding: 5px;
+  }
+  .main{
+    /* width: 768px; */
+    height: auto;
+  }
+  #main-contain .side{
+    width: 768px;
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  #main-contain .side .Inter{
+    width: 760px;
+    height: 240px;    
+  }
+  
+  #main-contain .side .fakeimg{
+    width: 400px;
+    padding: 20px;
+    float: left;
+  }
+  #main-contain .side p{
+    width: 300px;
+    float: left;
+  }
+  .carousel-inner {
+    position: relative;
+    width: 768px!important;
+    overflow: hidden;
+  }
+  .main .headerschool{
+    width: 768px;
+  }
+  .main .headerschool .introduction {
+    width: 360px;
+    padding-right: 10px;
+    float: left;
+    text-align: center;
+  }
+  .btn {
+    border: none;
+    font-size: 20px;
+    outline: none;
+    width: 180px;
+    padding: 8px 8px;
+    background-color: #08436b;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  .main .banner-avert {
+    width: 768px;
+    height: auto;
+  }
+  .main .main-teacher{
+    width: 768px;
+  }
+  .main .box_maps{
+    width: 768px;
+  }
+  .main .slideshow-container{
+    width: 768px;
+    height: auto;
+
+  }
+
+  /* .main-content{
+    width: 1024px!important;
+  } */
+  #carouselExampleIndicators .carousel-inner{
+    width: 1024px!important;
+  }
+  #ismain-homes .banner {
+    width: 1024px!important;
+  }
+  .navbar-collapse.collapse {
+    display: block!important;
+  }
+  .navbar-brand{
+    width: 200px;
+    float: left;
+  }
+  .navbar-expand-lg{
+    width: 1000px;
+    font-size: 15px;
+  }
+  #navbarSupportedContent{
+    width: 800px;
+    float: left;
+    /* margin-left: 10px; */
+  }
+  .navbar-nav {
+    float: none!important;
+    margin: 2.5px -4px;
+    font-size: 15px;
+  }
+  .footer_main {
+    width:1024px!important;
+  }
+  .topmenu .navbar-nav {
+    width: 100%;
+    text-align: right!important;
+  }
+
+
+}

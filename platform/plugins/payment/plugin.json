@@ -1,0 +1,9 @@
+{
+    "name": "Payment",
+    "namespace": "Botble\\Payment\\",
+    "provider": "Botble\\Payment\\Providers\\PaymentServiceProvider",
+    "author": "Sang Nguyen",
+    "url": "https://sgstar.edu.vn",
+    "version": "1.0",
+    "description": "Payment plugin"
+}

@@ -1,0 +1,48 @@
+//## Main Layout CSS Builder
+@import '../global/_variables';
+// global framework variables
+@import '../global/components/_mixins';
+// global framework mixings
+@import '_variables';
+// theme level variables
+@import 'partials/_print';
+// print layout
+@import 'partials/_header';
+// page header
+@import 'partials/_page-container';
+// page main container
+@import 'partials/_sidebar';
+// page sidebar
+@import 'partials/_content';
+// page consnde
+@import 'partials/_footer';
+// page footer
+@import 'partials/_theme-panel';
+// theme customizer panel
+
+/***
+Page Loading
+***/
+
+.page-on-load {
+    background: #fefefe;
+
+    .page-header,
+    .page-container,
+    .page-footer,
+    > .clearfix {
+        display: none;
+        transition: all 2s;
+    }
+}
+
+.page-wrapper {
+    .page-footer {
+        margin-left: 235px;
+        padding: 8px 20px 5px;
+        font-size: 13px;
+        min-height: 33px;
+        background: #fff;
+        color: #bcc3c7;
+    }
+}

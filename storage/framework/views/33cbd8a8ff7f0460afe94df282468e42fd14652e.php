@@ -1,0 +1,1 @@
+<div class="text-center language-column"><?php echo $data; ?></div><?php /**PATH D:\WWW\saigonstar2020\platform/plugins/language/resources/views//partials/language-column.blade.php ENDPATH**/ ?>

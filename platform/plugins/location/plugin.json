@@ -1,0 +1,9 @@
+{
+    "name": "Location",
+    "namespace": "Botble\\Location\\",
+    "provider": "Botble\\Location\\Providers\\LocationServiceProvider",
+    "author": "Sang Nguyen",
+    "url": "https://sgstar.edu.vn",
+    "version": "1.0",
+    "description": "The description for module location"
+}

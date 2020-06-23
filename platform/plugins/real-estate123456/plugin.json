@@ -1,0 +1,9 @@
+{
+    "name": "Our people",
+    "namespace": "Botble\\RealEstate\\",
+    "provider": "Botble\\RealEstate\\Providers\\RealEstateServiceProvider",
+    "author": "Huynh Tan Duong",
+    "url": "http://sgstar.edu.vn",
+    "version": "1.0",
+    "description": "Our people supports with projects, properties and some others"
+}

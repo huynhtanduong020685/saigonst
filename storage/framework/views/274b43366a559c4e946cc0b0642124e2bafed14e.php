@@ -1,0 +1,1 @@
+<?php echo render_editor($name, $value, Arr::get($attributes, 'with-short-code', false), $attributes); ?><?php /**PATH D:\WWW\saigonstar2020\platform/core/base/resources/views//elements/forms/editor-input.blade.php ENDPATH**/ ?>

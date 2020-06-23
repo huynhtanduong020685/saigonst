@@ -1,0 +1,219 @@
+[21-Feb-2020 08:23:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sgstared/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 603
+[21-Feb-2020 08:25:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sgstared/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 603
+[21-Feb-2020 08:32:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sgstared/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 603
+[21-Feb-2020 08:34:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sgstared/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 603
+[29-Feb-2020 05:58:38 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('view', Array)
+#4 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1245): Illuminate\Foundation\Application->make('view')
+#5 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(198): Illuminate\C in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[29-Feb-2020 05:58:56 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('view', Array)
+#4 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1245): Illuminate\Foundation\Application->make('view')
+#5 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(198): Illuminate\C in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[29-Feb-2020 05:59:14 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('view', Array)
+#4 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1245): Illuminate\Foundation\Application->make('view')
+#5 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(198): Illuminate\C in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[29-Feb-2020 05:59:34 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('view', Array)
+#4 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1245): Illuminate\Foundation\Application->make('view')
+#5 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(198): Illuminate\C in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[29-Feb-2020 05:59:39 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('view', Array)
+#4 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1245): Illuminate\Foundation\Application->make('view')
+#5 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(198): Illuminate\C in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[29-Feb-2020 06:01:37 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('view', Array)
+#4 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1245): Illuminate\Foundation\Application->make('view')
+#5 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(198): Illuminate\C in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[29-Feb-2020 06:01:45 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('view', Array)
+#4 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1245): Illuminate\Foundation\Application->make('view')
+#5 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(198): Illuminate\C in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[29-Feb-2020 06:01:55 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('view', Array)
+#4 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1245): Illuminate\Foundation\Application->make('view')
+#5 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(198): Illuminate\C in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[29-Feb-2020 06:02:00 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('view', Array)
+#4 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1245): Illuminate\Foundation\Application->make('view')
+#5 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(198): Illuminate\C in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[29-Feb-2020 06:02:05 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('view', Array)
+#4 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1245): Illuminate\Foundation\Application->make('view')
+#5 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(198): Illuminate\C in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[29-Feb-2020 06:02:11 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('view', Array)
+#4 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1245): Illuminate\Foundation\Application->make('view')
+#5 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(198): Illuminate\C in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[29-Feb-2020 06:02:48 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('view', Array)
+#4 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1245): Illuminate\Foundation\Application->make('view')
+#5 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(198): Illuminate\C in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[29-Feb-2020 06:03:31 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('view', Array)
+#4 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1245): Illuminate\Foundation\Application->make('view')
+#5 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(198): Illuminate\C in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[29-Feb-2020 06:03:57 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('view', Array)
+#4 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1245): Illuminate\Foundation\Application->make('view')
+#5 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(198): Illuminate\C in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[29-Feb-2020 06:04:52 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('view', Array)
+#4 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1245): Illuminate\Foundation\Application->make('view')
+#5 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(198): Illuminate\C in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[29-Feb-2020 06:06:11 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('view', Array)
+#4 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1245): Illuminate\Foundation\Application->make('view')
+#5 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(198): Illuminate\C in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[29-Feb-2020 06:08:27 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('view', Array)
+#4 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1245): Illuminate\Foundation\Application->make('view')
+#5 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(198): Illuminate\C in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[29-Feb-2020 06:13:03 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('view', Array)
+#4 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1245): Illuminate\Foundation\Application->make('view')
+#5 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(198): Illuminate\C in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[29-Feb-2020 06:13:04 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('view', Array)
+#4 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1245): Illuminate\Foundation\Application->make('view')
+#5 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(198): Illuminate\C in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[29-Feb-2020 06:13:16 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('view', Array)
+#4 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1245): Illuminate\Foundation\Application->make('view')
+#5 /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(198): Illuminate\C in /home/sgstared/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[02-Mar-2020 03:35:05 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62399180 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:35:06 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62399180 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:35:07 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 37880368 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 262
+[02-Mar-2020 03:35:13 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62399180 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:35:14 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62399180 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:35:14 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 37880368 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 262
+[02-Mar-2020 03:35:19 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62399180 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:35:20 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62399180 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:35:21 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62399180 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:35:22 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62399180 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:35:22 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62399180 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:35:25 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62399180 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:35:26 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62399180 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:35:26 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62399180 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:35:29 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62399180 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:35:30 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62399180 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:35:35 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62573868 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:35:44 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62573868 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:36:22 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62404428 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:36:23 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62404428 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:36:26 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62404428 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:36:27 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 37885616 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 262
+[02-Mar-2020 03:36:35 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62399180 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:37:20 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62399180 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:39:10 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62399180 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:45:33 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62399180 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:49:20 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62399180 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:49:43 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62399180 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:50:14 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62399180 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:51:03 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62404428 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:52:19 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62399180 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[02-Mar-2020 03:53:28 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62399180 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[13-Apr-2020 10:15:31 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62397036 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[13-Apr-2020 10:16:58 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62397036 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[13-Apr-2020 10:17:37 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62397036 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[13-Apr-2020 10:21:47 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62442956 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[13-Apr-2020 10:22:28 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62397036 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[13-Apr-2020 10:23:49 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62397036 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[13-Apr-2020 10:24:31 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62397036 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[13-Apr-2020 10:25:40 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62420652 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[13-Apr-2020 10:25:42 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 37879296 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 262
+[13-Apr-2020 10:26:57 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 62454764 bytes) in /home/sgstared/public_html/vendor/symfony/debug/ExceptionHandler.php on line 440
+[29-Apr-2020 04:49:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sgstared/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 603
+[29-Apr-2020 04:50:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sgstared/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 603
+[29-Apr-2020 04:50:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sgstared/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 603
+[29-Apr-2020 04:51:44 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sgstared/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 603
+[29-Apr-2020 04:52:34 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sgstared/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 603
+[29-Apr-2020 04:58:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sgstared/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 603
+[29-Apr-2020 05:59:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sgstared/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 603
+[29-Apr-2020 05:59:44 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sgstared/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 603
+[29-Apr-2020 06:02:30 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sgstared/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 603
+[29-Apr-2020 06:04:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sgstared/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 603
+[29-Apr-2020 11:28:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sgstared/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 603
+[29-Apr-2020 11:29:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sgstared/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 603
+[01-May-2020 07:44:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sgstared/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 603

@@ -1,0 +1,9 @@
+{
+    "name": "Translation",
+    "namespace": "Botble\\Translation\\",
+    "provider": "Botble\\Translation\\Providers\\TranslationServiceProvider",
+    "author": "Sang Nguyen",
+    "url": "https://sgstar.edu.vn",
+    "version": "4.0",
+    "description": "Manage translation text"
+}
